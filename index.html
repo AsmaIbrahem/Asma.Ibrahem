@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>oop project</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png" ></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li> <a href="">HOME</a></li>
+					<li> <a href="">ABOUT</a></li>
+					<li> <a href="">COURSES</a></li>
+					<li> <a href="">BLOG</a></li>
+					<li> <a href="">CONTACT</a></li>
+				</ul>
+			</div>	
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+<div class="text-box">		
+	<h1><b>Artificial Intelligence</b></h1>
+	<p>
+	The Faculty of Artificial Intelligence at Kafr El-Sheikh Univesity seeks to support ecellence in Eygypt and provide state<br> institutions with knowledge to boost economic geoeth and improve the lives of Egyptians.	
+	</p>
+	<a href="https://kfs.edu.eg/en_ai/display.aspx?topic=81262" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+    </section>
+
+<section class="mission">
+	<h1>Faculty Mission</h1>
+
+	<div class="row">
+		<div class="course-col">
+			<h3><b>SUPPORTING</b></h3>
+			<p>the country's efforts in building and maintaining innovation based on artificial intelligence, growth and productivity in Egypt by focusing on the transformation efforts for deep learning and machine learning.</p>
+		</div>
+		<div class="course-col">
+			<h3><b>SUPPORTING</b></h3>
+			<p>the industrial and business sectors in Egypt with human cadres with artificial intelligence skills.</p>
+		</div>
+		<div class="course-col">
+			<h3><b>SUPPORTING</b></h3>
+			<p>the industrial and business sectors in Egypt with human cadres with artificial intelligence skills.</p>
+		</div>
+	</div>
+
+</section>
+
+<section class="campus">
+	<h1>The Educational Commission</h1>
+	<p><h3>the faculty enjoys a successful high level educational commission who's <br>their standard is always development and evolution, incliding : </h3></p>
+
+	<div class="row">
+		<div class="campus-col">
+			<img src="images/drmedhat.jpg">
+			<div class="layer">
+				<h4><b>DR.TAMER MEDHAT</b><br>the dean of the faculty</h4>
+			</div>
+		</div>
+		<div class="campus-col">
+			<img src="images/drmohamed.jpg">
+			<div class="layer">
+				<h4><b>DR.MOHAMED ABDO KASEM</b><br>machine learning and<br> information retrieval</h4>
+			</div>
+		</div>
+		<div class="campus-col">
+			<img src="images/drmahmoud.jpg">
+			<div class="layer">
+				<h4><b>DR.MAHMOUD SHAMS</b><br>machine learning and<br> information retrieval</h4>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px";
+		}
+	</script>
+</body>
+</html>
